@@ -1,0 +1,43 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+  min-height: 100vh;
+}
+nav{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  margin: auto;
+  
+}
+
+ul{
+display: flex;
+width: 50%;
+justify-content: space-between;
+list-style: none;
+
+}
+h1{
+  letter-spacing: 3px;
+}
+.backimage{
+background-image: url(./images/Screen\ Shot\ 2022-12-03\ at\ 14.38.03.png);
+background-repeat: none;
+background-size: cover;
+background-position: center;
+min-height: 90vh;
+}
+
+ul li{
+  cursor: pointer;
+}
